@@ -1,0 +1,20 @@
+<---------------------COMANDOS---------------------->
+
+> instalacion de dependencias
+-       pip install flask
+-       pip install flask-sqlalchemy
+-       pip install flask-migrate
+-       pip install flask-wtf
+-       pip install flask_cors
+-       pip install flask_bcrypt
+-       pip install pyJWT
+-       pip install psycopg2
+
+para generar pdf:
+    - pip install reportlab    
+
+> ejecutar el programa
+    flask db init
+    flask db migrate
+    flask db upgrade
+    flask run
